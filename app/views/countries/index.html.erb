@@ -1,0 +1,10 @@
+<h1>Countries List</h1>
+<ul>
+    <% @countries.each do |country| %>
+        <li>
+            <a href="/countries/city"><%= country %></a>
+        </li>
+    <% end %>
+</ul>
+
+<%= message %>
